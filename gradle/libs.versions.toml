@@ -1,5 +1,5 @@
 [versions]
-kotlin = "2.1.20-RC3"
+kotlin = "2.1.20"
 compose = "1.7.0"
 
 [libraries]
@@ -9,4 +9,4 @@ compose = "1.7.0"
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 compose = { id = "org.jetbrains.compose", version.ref = "compose" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-compose-hot-reload = { id = "org.jetbrains.compose.hot-reload", version = "1.0.0-alpha01" }
+compose-hot-reload = { id = "org.jetbrains.compose.hot-reload", version = "1.0.0-alpha05" }
