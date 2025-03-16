@@ -1,0 +1,12 @@
+[versions]
+kotlin = "2.1.20-RC3"
+compose = "1.7.0"
+
+[libraries]
+# Add libraries here when needed
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.compose", version.ref = "compose" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+compose-hot-reload = { id = "org.jetbrains.compose.hot-reload", version = "1.0.0-alpha01" }
