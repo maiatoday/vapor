@@ -1,7 +1,7 @@
 # Vapor Project Overview
 
 ## Introduction
-Vapor is a desktop application built with Jetpack Compose for Desktop, a modern UI toolkit for Kotlin. The application is a sample demonstration of various graphic techniques in Compose.
+Vapor is a desktop application built with Jetpack Compose for Desktop, a modern UI toolkit for Kotlin. The application is a sample demonstration of various graphic techniques in Compose. It is loosely inspired by vaporwave images found in tho `docs/look` folder. 
 
 ## Project Details
 - **Group ID**: net.maiatoday
@@ -36,11 +36,13 @@ To run the application locally:
 1. Clone the repository
 2. Open the project in IntelliJ IDEA or another IDE that supports Kotlin
 3. Run the `main` function in `Main.kt`
+4. For hot reload run `./gradlew runHot` task
 
 ## Development Guidelines
 When contributing to this project, please follow these guidelines:
 - Use the official Kotlin code style\
 - Follow the Compose best practices for UI development
+- Prefer adding new techniques as separate re-usable composable functions
 - Document your code appropriately
 - Do not write any tests as this is a demonstration project.
 - For each task that you complete, add all the modifications in git, and create a git commit when you're done. The message for the commit should be your summary line of the task.

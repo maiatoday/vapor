@@ -25,7 +25,6 @@ fun App() {
             }) {
                 Text(text)
             }
-            Text("asdfasdfas")
         }
     }
 }
