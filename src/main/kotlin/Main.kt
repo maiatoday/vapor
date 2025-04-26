@@ -14,6 +14,7 @@ import androidx.compose.ui.window.singleWindowApplication
 import kotlinx.coroutines.delay
 import theme.VaporTheme
 import theme.PaletteDisplay
+import theme.SampleQuirkyFont
 
 
 @Composable
@@ -42,6 +43,30 @@ fun App() {
 
                 // Display the color palette below Hello World
                 PaletteDisplay()
+
+                // Display the sample quirky font below the palette
+                SampleQuirkyFont(
+                    text = "Press Start 2 Play",
+                    style = theme.VaporFonts.pressStart2PStyle
+                )
+
+                // Display another sample quirky font with Rubik Glitch
+                SampleQuirkyFont(
+                    text = "Rubick Glitch",
+                    style = theme.VaporFonts.rubikGlitchStyle
+                )
+
+                // Display sample quirky font with Monoton
+                SampleQuirkyFont(
+                    text = "Monoton",
+                    style = theme.VaporFonts.monotonStyle
+                )
+
+                // Display sample quirky font with Neonderthaw
+                SampleQuirkyFont(
+                    text = "Neon der Thaw",
+                    style = theme.VaporFonts.neonderthawStyle
+                )
             }
 
             Text(
