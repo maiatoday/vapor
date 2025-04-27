@@ -16,7 +16,7 @@ There will be 🏷️ ...
 - [x] a tastefully curated [palette](https://github.com/maiatoday/vapor/releases/tag/02-palette)
 - [x] [quirky fonts](https://github.com/maiatoday/vapor/releases/tag/03-quirkyFonts)
 - [x] a [triangle](https://github.com/maiatoday/vapor/releases/tag/04-triangle)
-- [ ] vanishing floor tiles
+- [x] [vanishing floor](https://github.com/maiatoday/vapor/releases/tag/05-vanishingFloor) tiles
 - [ ] a minimum of one palm tree
 - [ ] at least one dolphin
 - [ ] a marble bust

@@ -1,12 +1,13 @@
 package ui
 
-import aesthetic.VanishingFloor
 import aesthetic.Triangle
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
@@ -16,11 +17,8 @@ import androidx.compose.ui.unit.dp
 import theme.VaporColors
 import theme.VaporFonts
 
-/**
- * All the things - the final composition
- */
 @Composable
-fun AllTheThings() {
+fun SoloTriangle() {
     Box(modifier = Modifier.Companion.fillMaxSize().background(VaporColors.RaisinBlack)) {
         Column(
             modifier = Modifier.Companion.fillMaxSize(),
@@ -28,22 +26,16 @@ fun AllTheThings() {
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                text = "Things Screen",
-                style = VaporFonts.rubikGlitchStyle.copy(color = VaporColors.OrchidPink),
+                text = "Triangle Demo",
+                style = VaporFonts.monotonStyle.copy(color = VaporColors.OrchidPink),
                 modifier = Modifier.Companion.padding(16.dp)
             )
+            Spacer(modifier = Modifier.height(24.dp))
             Triangle(
                 size = 200.dp,
                 color1 = VaporColors.Mulberry,
                 color2 = VaporColors.RobinEggBlue,
                 color3 = VaporColors.Glaucous
-            )
-            VanishingFloor(
-                size = 400.dp,
-                rows = 28,
-                columns = 32,
-                position = 0.67f,
-                useTiles = true
             )
         }
     }
