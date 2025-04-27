@@ -26,7 +26,7 @@ enum class UiState {
 @Composable
 @Preview
 fun App() {
-    var uiState by remember { mutableStateOf(UiState.Look) }
+    var uiState by remember { mutableStateOf(UiState.Solo) }
 
     VaporTheme {
         Box(modifier = Modifier.fillMaxSize()) {

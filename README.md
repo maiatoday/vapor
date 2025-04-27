@@ -15,7 +15,7 @@ There will be 🏷️ ...
 - [x] a blank page to [start](https://github.com/maiatoday/vapor/releases/tag/01-start)
 - [x] a tastefully curated [palette](https://github.com/maiatoday/vapor/releases/tag/02-palette)
 - [x] [quirky fonts](https://github.com/maiatoday/vapor/releases/tag/03-quirkyFonts)
-- [ ] a triangle
+- [x] a [triangle](https://github.com/maiatoday/vapor/releases/tag/04-triangle)
 - [ ] vanishing floor tiles
 - [ ] a minimum of one palm tree
 - [ ] at least one dolphin
