@@ -15,10 +15,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 
 /**
- * A composable that displays a color box with a label
+ * Color chip with a label
  */
 @Composable
-fun ColorBox(color: Color, name: String) {
+fun ColorChip(color: Color, name: String) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier.padding(4.dp)

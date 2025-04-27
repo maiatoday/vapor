@@ -1,18 +1,23 @@
 package theme
 
+import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.font.Font
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.sp
-import java.io.File
 
 /**
  * Vapor quirky fonts
  */
 object VaporFonts {
+    val DotGothic16 = FontFamily(
+        androidx.compose.ui.text.platform.Font(
+            "fonts/DotGothic16-Regular.ttf",
+            weight = FontWeight.Normal,
+            style = FontStyle.Normal
+        )
+    )
+
     val RubikGlitch = FontFamily(
         androidx.compose.ui.text.platform.Font(
             "fonts/RubikGlitch-Regular.ttf",
@@ -66,6 +71,12 @@ object VaporFonts {
 
     val pressStart2PStyle = TextStyle(
         fontFamily = PressStart2P,
+        fontWeight = FontWeight.Normal,
+        fontSize = 24.sp
+    )
+
+    val dotGothic16Style = TextStyle(
+        fontFamily = DotGothic16,
         fontWeight = FontWeight.Normal,
         fontSize = 24.sp
     )

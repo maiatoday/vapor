@@ -8,11 +8,9 @@ import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import theme.ColorBox
-import theme.VaporColors
 
 /**
- * A composable that displays a grid of all colors in the VaporColors object
+ * Show a grid of all colors in the VaporColors object
  */
 @Composable
 fun PaletteDisplay() {
@@ -22,7 +20,7 @@ fun PaletteDisplay() {
         modifier = Modifier.fillMaxWidth().padding(16.dp),
         content = {
             items(VaporColors.colorPairs) { (color, name) ->
-                ColorBox(color, name)
+                ColorChip(color, name)
             }
         }
     )

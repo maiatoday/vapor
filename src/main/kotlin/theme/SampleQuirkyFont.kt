@@ -10,7 +10,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 
 /**
- * A composable that displays sample text using a specified font style
+ * Displays sample text using a specified font style
  * @param text The text to display, defaults to "Press Start 2 Play"
  * @param style The text style to use, defaults to Press_Start_2P font style
  */

@@ -1,16 +1,13 @@
 package theme
 
-import androidx.compose.material.Colors
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Typography
 import androidx.compose.material.darkColors
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import theme.VaporColors
 
 /**
  * Vapor theme colors based on vaporwave aesthetics
@@ -35,25 +32,33 @@ private val VaporColorPalette = darkColors(
  */
 private val VaporTypography = Typography(
     h1 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = VaporFonts.DotGothic16,
         fontWeight = FontWeight.Bold,
         fontSize = 30.sp
     ),
     h2 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = VaporFonts.DotGothic16,
         fontWeight = FontWeight.Bold,
         fontSize = 24.sp
     ),
     body1 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = VaporFonts.DotGothic16,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp
     ),
     body2 = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = VaporFonts.DotGothic16,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp
-    )
+    ),
+    caption = TextStyle(
+        fontFamily = VaporFonts.DotGothic16,
+        fontSize = 10.sp
+    ),
+    button = TextStyle(
+        fontFamily = VaporFonts.DotGothic16,
+        fontSize = 14.sp
+    ),
 )
 
 /**
