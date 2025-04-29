@@ -17,11 +17,11 @@ There will be 🏷️ ...
 - [x] [quirky fonts](https://github.com/maiatoday/vapor/releases/tag/03-quirkyFonts)
 - [x] a [triangle](https://github.com/maiatoday/vapor/releases/tag/04-triangle)
 - [x] [vanishing floor](https://github.com/maiatoday/vapor/releases/tag/05-vanishingFloor) tiles
-- [ ] a minimum of one palm tree
 - [ ] at least one dolphin
 - [ ] a marble bust
 - [ ] color shifts on images
 - [ ] retro tech pixelated if possible
+- [ ] a minimum of one palm tree
 - [ ] text slogans and Japanese words
 - [ ] glitches
 - [ ] mesh pastel gradients
