@@ -20,13 +20,13 @@ There will be 🏷️ ...
 - [x] at least one [dolphin](https://github.com/maiatoday/vapor/releases/tag/06-dolphins)
 - [x] a [marble statue](https://github.com/maiatoday/vapor/releases/tag/07-marble)
 - [x] a [sunset](https://github.com/maiatoday/vapor/releases/tag/08-sunset)
-- [ ] color shifts on images
-- [ ] retro tech pixelated if possible
-- [ ] a minimum of one palm tree
+- [x] [retro tech](https://github.com/maiatoday/vapor/releases/tag/09-cassette) pixelated if possible
 - [ ] text slogans and Japanese words
+- [ ] neon svg scrawl
+- [ ] a minimum of one palm tree
+- [ ] color shifts on images
 - [ ] glitches
 - [ ] mesh pastel gradients
-- [ ] neon svg scrawl
 - [ ] a title
 - [ ] more glitches
 - [ ] and finally, all of the things
