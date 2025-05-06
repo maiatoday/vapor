@@ -19,13 +19,13 @@ There will be 🏷️ ...
 - [x] [vanishing floor](https://github.com/maiatoday/vapor/releases/tag/05-vanishingFloor) tiles
 - [x] at least one [dolphin](https://github.com/maiatoday/vapor/releases/tag/06-dolphins)
 - [x] a [marble statue](https://github.com/maiatoday/vapor/releases/tag/07-marble)
+- [x] a [sunset](https://github.com/maiatoday/vapor/releases/tag/08-sunset)
 - [ ] color shifts on images
 - [ ] retro tech pixelated if possible
 - [ ] a minimum of one palm tree
 - [ ] text slogans and Japanese words
 - [ ] glitches
 - [ ] mesh pastel gradients
-- [ ] a sunset
 - [ ] neon svg scrawl
 - [ ] a title
 - [ ] more glitches

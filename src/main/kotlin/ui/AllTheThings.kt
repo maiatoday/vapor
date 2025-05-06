@@ -2,6 +2,7 @@ package ui
 
 import aesthetic.DolphinSchool
 import aesthetic.MarbleStatue
+import aesthetic.Sunset
 import aesthetic.Triangle
 import aesthetic.VanishingFloor
 import androidx.compose.foundation.background
@@ -37,6 +38,12 @@ fun AllTheThings() {
                 useTiles = true
             )
         }
+
+        Sunset(
+            modifier = Modifier.size(400.dp)
+                .align(Alignment.TopEnd)
+                .padding(top = 40.dp, end = 40.dp)
+        )
 
         DolphinSchool(
             modifier = Modifier.padding(vertical = 16.dp)
