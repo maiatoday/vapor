@@ -1,26 +1,14 @@
 package ui
 
-import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.ImageBitmap
-import androidx.compose.ui.graphics.painter.BitmapPainter
-import androidx.compose.ui.res.loadImageBitmap
 import androidx.compose.ui.unit.dp
 import theme.VaporColors
 import theme.VaporFonts
-import java.io.File
 
 @Composable
 fun SoloDolphin() {
@@ -36,12 +24,23 @@ fun SoloDolphin() {
                 modifier = Modifier.padding(16.dp)
             )
             Spacer(modifier = Modifier.height(24.dp))
-            val imageBitmap: ImageBitmap = loadImageBitmap(File("src/main/resources/drawable/pinkDolphin1.png").inputStream())
-            Image(
-                painter = BitmapPainter(imageBitmap),
-                contentDescription = "Pink Dolphin",
-                modifier = Modifier.size(200.dp)
-            )
+            Row(
+                horizontalArrangement = Arrangement.SpaceEvenly,
+                modifier = Modifier.padding(16.dp)
+            ) {
+                PinkDolphin(modifier = Modifier.size(150.dp))
+                Spacer(modifier = Modifier.width(16.dp))
+                PinkDolphin2(modifier = Modifier.size(150.dp))
+            }
+            Spacer(modifier = Modifier.height(24.dp))
+            Row(
+                horizontalArrangement = Arrangement.SpaceEvenly,
+                modifier = Modifier.padding(16.dp)
+            ) {
+                Dolphin(modifier = Modifier.size(100.dp))
+                Spacer(modifier = Modifier.width(16.dp))
+                Dolphin2(modifier = Modifier.size(100.dp))
+            }
         }
     }
 }

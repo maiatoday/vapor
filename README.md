@@ -17,7 +17,7 @@ There will be 🏷️ ...
 - [x] [quirky fonts](https://github.com/maiatoday/vapor/releases/tag/03-quirkyFonts)
 - [x] a [triangle](https://github.com/maiatoday/vapor/releases/tag/04-triangle)
 - [x] [vanishing floor](https://github.com/maiatoday/vapor/releases/tag/05-vanishingFloor) tiles
-- [ ] at least one dolphin
+- [x] at least one [dolphin](https://github.com/maiatoday/vapor/releases/tag/06-dolphins)
 - [ ] a marble bust
 - [ ] color shifts on images
 - [ ] retro tech pixelated if possible

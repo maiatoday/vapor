@@ -32,6 +32,9 @@ fun AllTheThings() {
                 style = VaporFonts.rubikGlitchStyle.copy(color = VaporColors.OrchidPink),
                 modifier = Modifier.Companion.padding(16.dp)
             )
+            DolphinSchool(
+                modifier = Modifier.padding(vertical = 16.dp)
+            )
             Triangle(
                 size = 200.dp,
                 color1 = VaporColors.Mulberry,
