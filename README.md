@@ -18,7 +18,7 @@ There will be 🏷️ ...
 - [x] a [triangle](https://github.com/maiatoday/vapor/releases/tag/04-triangle)
 - [x] [vanishing floor](https://github.com/maiatoday/vapor/releases/tag/05-vanishingFloor) tiles
 - [x] at least one [dolphin](https://github.com/maiatoday/vapor/releases/tag/06-dolphins)
-- [ ] a marble bust
+- [x] a [marble statue](https://github.com/maiatoday/vapor/releases/tag/07-marble)
 - [ ] color shifts on images
 - [ ] retro tech pixelated if possible
 - [ ] a minimum of one palm tree

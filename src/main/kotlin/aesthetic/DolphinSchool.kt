@@ -1,4 +1,4 @@
-package ui
+package aesthetic
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable

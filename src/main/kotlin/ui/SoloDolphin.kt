@@ -1,5 +1,9 @@
 package ui
 
+import aesthetic.Dolphin
+import aesthetic.Dolphin2
+import aesthetic.PinkDolphin
+import aesthetic.PinkDolphin2
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text

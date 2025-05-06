@@ -1,7 +1,8 @@
-package ui
+package aesthetic
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import utils.ImageFromPath
 
 @Composable
 fun PinkDolphin(modifier: Modifier = Modifier) {

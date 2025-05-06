@@ -1,4 +1,4 @@
-package ui
+package aesthetic
 
 /**
  * Object containing mappings for image paths
@@ -6,7 +6,6 @@ package ui
 object Res {
     // Resource paths
     private const val DRAWABLE_PATH = "src/main/resources/drawable/"
-    private const val DOCS_LOOK_PATH = "docs/look/"
 
     // Image paths
     object Images {
@@ -17,5 +16,8 @@ object Res {
         // Regular Dolphin images
         const val DOLPHIN_1 = DRAWABLE_PATH + "dolphin1.png"
         const val DOLPHIN_2 = DRAWABLE_PATH + "dolphin2.png"
+
+        // Statue images
+        const val MARBLE_STATUE = DRAWABLE_PATH + "BB02.png"
     }
 }

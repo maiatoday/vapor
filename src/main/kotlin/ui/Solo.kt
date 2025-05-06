@@ -7,5 +7,5 @@ import androidx.compose.runtime.Composable
  */
 @Composable
 fun Solo() {
-    SoloDolphin()
+    SoloStatue()
 }
