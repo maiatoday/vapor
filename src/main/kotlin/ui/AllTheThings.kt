@@ -1,7 +1,6 @@
 package ui
 
 import aesthetic.*
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -12,7 +11,7 @@ import theme.VaporColors
 /** All the things - the final composition */
 @Composable
 fun AllTheThings() {
-    Box(modifier = Modifier.Companion.fillMaxSize().background(VaporColors.RaisinBlack)) {
+    Box(modifier = Modifier.Companion.fillMaxSize().meshGradient(colorPoints)) {
 
         Column(
             modifier = Modifier.Companion.fillMaxSize(),
@@ -31,7 +30,7 @@ fun AllTheThings() {
                 rows = 28,
                 columns = 32,
                 position = 0.67f,
-                useTiles = true
+                useTiles = false
             )
         }
 

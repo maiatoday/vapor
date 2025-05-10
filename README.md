@@ -22,11 +22,11 @@ There will be 🏷️ ...
 - [x] a [sunset](https://github.com/maiatoday/vapor/releases/tag/08-sunset)
 - [x] [retro tech](https://github.com/maiatoday/vapor/releases/tag/09-cassette) pixelated if possible
 - [x] [color shifts](https://github.com/maiatoday/vapor/releases/tag/10-matrixBlur) on images
+- [x] [mesh pastel gradients](https://github.com/maiatoday/vapor/releases/tag/11-meshGradient)
 - [ ] text slogans and Japanese words
 - [ ] neon svg scrawl
 - [ ] a minimum of one palm tree
 - [ ] glitches
-- [ ] mesh pastel gradients
 - [ ] a title
 - [ ] more glitches
 - [ ] and finally, all of the things

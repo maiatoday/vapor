@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -17,12 +18,14 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun SampleQuirkyFont(
     text: String = "Press Start 2 Play",
-    style: TextStyle = VaporFonts.pressStart2PStyle
+    style: TextStyle = VaporFonts.pressStart2PStyle,
+    color: Color = Color.Unspecified,
 ) {
     Text(
         text = text,
         style = style,
         modifier = Modifier.fillMaxWidth().padding(16.dp),
-        textAlign = TextAlign.Center
+        textAlign = TextAlign.Center,
+        color = color
     )
 }

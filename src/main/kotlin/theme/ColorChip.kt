@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
  * Color chip with a label
  */
 @Composable
-fun ColorChip(color: Color, name: String) {
+fun ColorChip(color: Color, name: String, textColor:Color = Color.Unspecified) {
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         modifier = Modifier.padding(4.dp)
@@ -32,7 +32,8 @@ fun ColorChip(color: Color, name: String) {
         Text(
             text = name,
             style = MaterialTheme.typography.caption,
-            modifier = Modifier.padding(top = 4.dp)
+            modifier = Modifier.padding(top = 4.dp),
+            color = textColor
         )
     }
 }

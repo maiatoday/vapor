@@ -1,9 +1,12 @@
 package ui
 
+import aesthetic.colorPoints1
+import aesthetic.meshGradient
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
 import theme.PaletteDisplay
@@ -26,43 +29,49 @@ fun TheLook() {
         }
     }
 
-    Box(modifier = Modifier.fillMaxSize()) {
+    Box(modifier = Modifier.fillMaxSize().meshGradient(colorPoints1)) {
         Column {
             // Display Hello World with blinking cursor
             Row {
                 Text(
                     text = text + if (showCursor) "_" else "",
-                    modifier = Modifier.padding(16.dp)
+                    modifier = Modifier.padding(16.dp),
+                    color = Color.White
                 )
             }
 
             // Display the color palette
-            PaletteDisplay()
+            PaletteDisplay(textColor = Color.White)
 
             // Display the sample quirky fonts
             SampleQuirkyFont(
                 text = "Press Start 2 Play",
-                style = VaporFonts.pressStart2PStyle
+                style = VaporFonts.pressStart2PStyle,
+                color = Color.White
             )
 
             SampleQuirkyFont(
                 text = "Rubick Glitch",
-                style = VaporFonts.rubikGlitchStyle
+                style = VaporFonts.rubikGlitchStyle,
+                color = Color.White
             )
 
             SampleQuirkyFont(
                 text = "Monoton",
-                style = VaporFonts.monotonStyle
+                style = VaporFonts.monotonStyle,
+                color = Color.White
             )
 
             SampleQuirkyFont(
                 text = "Neon der Thaw",
-                style = VaporFonts.neonderthawStyle
+                style = VaporFonts.neonderthawStyle,
+                color = Color.White
             )
 
             SampleQuirkyFont(
                 text = "DotGothic16",
-                style = VaporFonts.dotGothic16Style
+                style = VaporFonts.dotGothic16Style,
+                color = Color.White
             )
         }
     }
