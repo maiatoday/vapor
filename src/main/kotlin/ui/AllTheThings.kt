@@ -51,6 +51,12 @@ fun AllTheThings() {
 
         )
 
+        // Smaller LayeredMarbleStatue with horizontal flip
+        LayeredMarbleStatue(
+            modifier = Modifier.size(200.dp).align(Alignment.BottomStart).offset((200).dp, (-150).dp),
+            flipHorizontally = true
+        )
+
         Cassette(
             option = 10,
             modifier = Modifier.size(200.dp)

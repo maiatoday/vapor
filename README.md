@@ -21,10 +21,10 @@ There will be 🏷️ ...
 - [x] a [marble statue](https://github.com/maiatoday/vapor/releases/tag/07-marble)
 - [x] a [sunset](https://github.com/maiatoday/vapor/releases/tag/08-sunset)
 - [x] [retro tech](https://github.com/maiatoday/vapor/releases/tag/09-cassette) pixelated if possible
+- [x] [color shifts](https://github.com/maiatoday/vapor/releases/tag/10-matrixBlur) on images
 - [ ] text slogans and Japanese words
 - [ ] neon svg scrawl
 - [ ] a minimum of one palm tree
-- [ ] color shifts on images
 - [ ] glitches
 - [ ] mesh pastel gradients
 - [ ] a title
