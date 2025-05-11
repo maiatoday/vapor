@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import theme.VaporColors
 import theme.VaporFonts
+import utils.glitch
 import utils.holoFoil
 
 /** All the things - the final composition */
@@ -45,7 +46,8 @@ fun AllTheThings() {
             mousePosition = it.changes.first().position
         }
         // Apply holoFoil modifier to the bounding box
-        .holoFoil(offset = offsetX, intensity = 0.7f)
+        .holoFoil(offset = offsetX, intensity = 0.4f)
+        .glitch(intensity = 0.05f)
     ) {
 
         Column(

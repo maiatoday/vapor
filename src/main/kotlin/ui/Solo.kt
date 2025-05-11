@@ -10,7 +10,6 @@ import utils.holoFoil
  */
 @Composable
 fun Solo() {
-    // Uncomment one of these to see different solo demos
-    // SoloStatue()
+   // SoloGlitch()
     SoloHoloFoil()
 }

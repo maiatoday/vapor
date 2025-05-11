@@ -15,6 +15,7 @@ import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.unit.dp
 import theme.VaporColors
 import theme.VaporFonts
+import utils.glitch
 import utils.holoFoil
 
 @OptIn(ExperimentalComposeUiApi::class)
@@ -44,6 +45,7 @@ fun SoloHoloFoil(modifier: Modifier = Modifier) {
             }
             // Apply holoFoil modifier to the bounding box
             .holoFoil(offset = offsetX, intensity = 1f)
+            .glitch(intensity = 0.1f)
     ) {
         Column(
             modifier = Modifier.fillMaxSize(),
