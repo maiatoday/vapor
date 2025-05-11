@@ -23,12 +23,9 @@ There will be 🏷️ ...
 - [x] [retro tech](https://github.com/maiatoday/vapor/releases/tag/09-cassette) pixelated if possible
 - [x] [color shifts](https://github.com/maiatoday/vapor/releases/tag/10-matrixBlur) on images
 - [x] [mesh pastel gradients](https://github.com/maiatoday/vapor/releases/tag/11-meshGradient)
-- [ ] text slogans and Japanese words
-- [ ] neon svg scrawl
-- [ ] a minimum of one palm tree
-- [ ] glitches
-- [ ] a title
-- [ ] more glitches
+- [x] neon svg scrawl, a minimum of one [palm tree](https://github.com/maiatoday/vapor/releases/tag/12-palmTree) 
+- [ ] a title, text slogans and Japanese words
+- [ ] glitches, more glitches
 - [ ] and finally, all of the things
 
 ## Getting Started—*make a move*

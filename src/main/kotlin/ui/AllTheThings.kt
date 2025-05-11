@@ -14,7 +14,7 @@ fun AllTheThings() {
     Box(modifier = Modifier.Companion.fillMaxSize().meshGradient(colorPoints)) {
 
         Column(
-            modifier = Modifier.Companion.fillMaxSize(),
+            modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.Companion.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
@@ -30,16 +30,21 @@ fun AllTheThings() {
                 rows = 28,
                 columns = 32,
                 position = 0.67f,
-                useTiles = false
+                useTiles = true
             )
         }
 
         Sunset(
-            modifier = Modifier.size(400.dp)
+            modifier = Modifier.size(500.dp)
                 .align(Alignment.TopEnd)
                 .padding(top = 40.dp, end = 40.dp)
         )
 
+        Palm(
+            modifier = Modifier.size(450.dp)
+                .offset((-160).dp, (-180).dp)
+                .align(Alignment.BottomStart)
+        )
         DolphinSchool(
             modifier = Modifier.padding(vertical = 16.dp)
                 .align(Alignment.Center).offset((-120).dp, 20.dp)
@@ -59,13 +64,13 @@ fun AllTheThings() {
         Cassette(
             option = 10,
             modifier = Modifier.size(200.dp)
-                .align(Alignment.TopStart)
+                .align(Alignment.BottomEnd)
                 .padding(top = 40.dp, start = 40.dp)
         )
         Cassette(
             option = 3,
             modifier = Modifier.size(200.dp)
-                .align(Alignment.TopStart)
+                .align(Alignment.BottomEnd)
                 .padding(top = 40.dp, start = 40.dp)
                 .offset(20.dp, 10.dp)
         )
@@ -81,7 +86,8 @@ fun AllTheThings() {
             option = 5,
             modifier = Modifier.size(120.dp)
                 .align(Alignment.CenterEnd)
-                .padding(end = 60.dp)
+                .padding(20.dp)
+                .offset((-10).dp, 120.dp)
         )
 
         Cassette(
@@ -94,7 +100,7 @@ fun AllTheThings() {
         Cassette(
             option = 4,
             modifier = Modifier.size(140.dp)
-                .align(Alignment.TopCenter)
+                .align(Alignment.BottomCenter)
                 .padding(top = 60.dp)
         )
 
@@ -104,7 +110,6 @@ fun AllTheThings() {
                 .align(Alignment.BottomCenter)
                 .padding(bottom = 60.dp)
         )
-
 
     }
 }

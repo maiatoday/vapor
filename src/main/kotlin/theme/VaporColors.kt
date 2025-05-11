@@ -32,3 +32,11 @@ object VaporColors {
         Pair(RosePompadour, "Rose Pompadour")
     )
 }
+
+val neonRobinEggBlueColors = listOf(
+    Color.Transparent,
+    VaporColors.RobinEggBlue,
+    Color.White,
+    VaporColors.RobinEggBlue,
+    Color.Transparent
+)

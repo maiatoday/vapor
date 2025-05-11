@@ -94,5 +94,5 @@ nostalgia for a place you never knew
   "Rose Pompadour": "E0768D"
 }
 ```
-
+There is a way to get a path from an SVG and animate it. This blog extract, [ScribbleDraw](ScribbleDraw.md), describes it.
 
