@@ -15,8 +15,8 @@ import utils.myBlur
 import utils.weirdColorFilter
 
 @Composable
-fun SoloStatue() {
-    Box(modifier = Modifier.fillMaxSize().background(VaporColors.RaisinBlack)) {
+fun SoloStatue(modifier: Modifier = Modifier) {
+    Box(modifier = modifier.fillMaxSize().background(VaporColors.RaisinBlack)) {
         Column(
             modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,

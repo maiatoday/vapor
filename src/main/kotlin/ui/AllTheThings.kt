@@ -3,22 +3,50 @@ package ui
 import aesthetic.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Shadow
 import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.input.pointer.PointerEventType
+import androidx.compose.ui.input.pointer.onPointerEvent
+import androidx.compose.ui.layout.onGloballyPositioned
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import theme.VaporColors
 import theme.VaporFonts
+import utils.holoFoil
 
 /** All the things - the final composition */
+@OptIn(ExperimentalComposeUiApi::class)
 @Composable
 fun AllTheThings() {
-    Box(modifier = Modifier.Companion.fillMaxSize().meshGradient(colorPoints)) {
+    // Track mouse position
+    var mousePosition by remember { mutableStateOf(Offset.Zero) }
+    var boxSize by remember { mutableStateOf(Offset.Zero) }
+
+    // Calculate offset based on mouse position relative to the box center
+    val offsetX = if (boxSize.x > 0) {
+        (mousePosition.x / boxSize.x - 0.5f) * 2f
+    } else 0f
+
+    Box(modifier = Modifier.Companion.fillMaxSize()
+        .meshGradient(colorPoints)
+        .onGloballyPositioned { coordinates ->
+            boxSize = Offset(
+                coordinates.size.width.toFloat(),
+                coordinates.size.height.toFloat()
+            )
+        }
+        .onPointerEvent(PointerEventType.Move) {
+            mousePosition = it.changes.first().position
+        }
+        // Apply holoFoil modifier to the bounding box
+        .holoFoil(offset = offsetX, intensity = 0.7f)
+    ) {
 
         Column(
             modifier = Modifier.fillMaxSize(),
