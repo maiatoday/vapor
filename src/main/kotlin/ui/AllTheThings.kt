@@ -2,11 +2,18 @@ package ui
 
 import aesthetic.*
 import androidx.compose.foundation.layout.*
+import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.Shadow
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import theme.VaporColors
+import theme.VaporFonts
 
 /** All the things - the final composition */
 @Composable
@@ -30,7 +37,7 @@ fun AllTheThings() {
                 rows = 28,
                 columns = 32,
                 position = 0.67f,
-                useTiles = true
+                useTiles = false
             )
         }
 
@@ -100,8 +107,9 @@ fun AllTheThings() {
         Cassette(
             option = 4,
             modifier = Modifier.size(140.dp)
-                .align(Alignment.BottomCenter)
+                .align(Alignment.BottomStart)
                 .padding(top = 60.dp)
+                .offset(x=180.dp)
         )
 
         Cassette(
@@ -110,6 +118,29 @@ fun AllTheThings() {
                 .align(Alignment.BottomCenter)
                 .padding(bottom = 60.dp)
         )
+        // Add title at the top center
+        TitleText(
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(top = 48.dp, end = 64.dp)
+        )
 
+        // Add "なに!?" text at the bottom start, rotated 45 degrees
+        Text(
+            text = "なに!?",
+            style = VaporFonts.pressStart2PStyle.copy(
+                color = Color.White,
+                fontSize = 36.sp,
+                shadow = Shadow(
+                    color = VaporColors.RobinEggBlue,
+                    offset = Offset(2f, 2f),
+                    blurRadius = 2f)
+            ),
+            modifier = Modifier
+                .align(Alignment.BottomStart)
+                .offset(x = 0.dp, y = (-200).dp)
+                .graphicsLayer(rotationZ = -90f)
+
+        )
     }
 }

@@ -24,7 +24,7 @@ There will be 🏷️ ...
 - [x] [color shifts](https://github.com/maiatoday/vapor/releases/tag/10-matrixBlur) on images
 - [x] [mesh pastel gradients](https://github.com/maiatoday/vapor/releases/tag/11-meshGradient)
 - [x] neon svg scrawl, a minimum of one [palm tree](https://github.com/maiatoday/vapor/releases/tag/12-palmTree) 
-- [ ] a title, text slogans and Japanese words
+- [x] a title, text slogans and Japanese [words](https://github.com/maiatoday/vapor/releases/tag/13-whatReloaded)
 - [ ] glitches, more glitches
 - [ ] and finally, all of the things
 

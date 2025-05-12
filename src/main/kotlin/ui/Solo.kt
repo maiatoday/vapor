@@ -8,5 +8,5 @@ import androidx.compose.runtime.Composable
  */
 @Composable
 fun Solo() {
-    SoloPalm()
+    SoloRubikGlitchTitle()
 }
