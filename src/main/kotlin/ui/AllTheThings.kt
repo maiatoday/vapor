@@ -14,8 +14,10 @@ import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.PointerEventType
 import androidx.compose.ui.input.pointer.onPointerEvent
 import androidx.compose.ui.layout.onGloballyPositioned
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import kotlinx.coroutines.delay
 import theme.VaporColors
 import theme.VaporFonts
 import utils.glitch
@@ -85,8 +87,8 @@ fun AllTheThings() {
         DolphinSchool(
             modifier = Modifier.padding(vertical = 16.dp)
                 .align(Alignment.Center).offset((-120).dp, 20.dp)
-
         )
+
         MarbleStatue(
             modifier = Modifier.Companion.size(450.dp).align(Alignment.BottomEnd)
 
@@ -171,6 +173,15 @@ fun AllTheThings() {
                 .offset(x = 0.dp, y = (-200).dp)
                 .graphicsLayer(rotationZ = -90f)
 
+        )
+
+        // Add GitHub URL marquee text in the middle
+        MarqueeText(
+            text = "github.com/maiatoday/vapor",
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(50.dp)
+                .align(Alignment.TopCenter)
         )
     }
 }

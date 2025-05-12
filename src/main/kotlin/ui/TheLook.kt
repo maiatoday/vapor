@@ -73,6 +73,12 @@ fun TheLook() {
                 style = VaporFonts.dotGothic16Style,
                 color = Color.White
             )
+            // Display the sample quirky fonts
+            SampleQuirkyFont(
+                text = "github.com/maiatoday/vapor",
+                style = VaporFonts.pressStart2PStyle,
+                color = Color.White
+            )
         }
     }
 }

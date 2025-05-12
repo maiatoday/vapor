@@ -27,7 +27,7 @@ There will be 🏷️ ...
 - [x] a title, text slogans and Japanese [words](https://github.com/maiatoday/vapor/releases/tag/13-whatReloaded)
 - [x] remixed [holofoil](https://github.com/maiatoday/vapor/releases/tag/14-holofoil)
 - [x] glitches, more [glitches](https://github.com/maiatoday/vapor/releases/tag/15-glitch)
-- [ ] and finally, all of the things
+- [x] and finally, [all of the things](https://github.com/maiatoday/vapor/releases/tag/end)
 
 ## Getting Started—*make a move*
 
