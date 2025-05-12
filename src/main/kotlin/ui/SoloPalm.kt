@@ -30,9 +30,7 @@ fun SoloPalm() {
             Spacer(modifier = Modifier.height(24.dp))
 
             // Display the palm path with neon robin egg blue gradient
-            Palm(
-                modifier = Modifier.size(500.dp)
-            )
+            Palm(modifier = Modifier.size(500.dp))
         }
     }
 }

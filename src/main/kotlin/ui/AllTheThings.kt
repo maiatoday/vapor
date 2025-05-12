@@ -41,8 +41,8 @@ fun AllTheThings() {
         )
 
         Palm(
-            modifier = Modifier.size(450.dp)
-                .offset((-160).dp, (-180).dp)
+            modifier = Modifier.size(600.dp)
+                .offset((-180).dp, (-100).dp)
                 .align(Alignment.BottomStart)
         )
         DolphinSchool(
