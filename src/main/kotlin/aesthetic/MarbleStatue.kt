@@ -3,7 +3,6 @@ package aesthetic
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ColorFilter
-import utils.ImageFromPath
 
 /**
  * Composable that displays a marble statue image
@@ -16,10 +15,11 @@ fun MarbleStatue(
     modifier: Modifier = Modifier,
     colorFilter: ColorFilter? = null
 ) {
-    ImageFromPath(
-        imagePath = Res.Images.MARBLE_STATUE,
-        contentDescription = "Marble Statue",
-        modifier = modifier,
-        colorFilter = colorFilter
-    )
+    //👀
+//    ImageFromPath(
+//        imagePath = Res.Images.MARBLE_STATUE,
+//        contentDescription = "Marble Statue",
+//        modifier = modifier,
+//        colorFilter = colorFilter
+//    )
 }

@@ -11,7 +11,7 @@ fun Solo() {
 //    SoloTriangle()
 //    SoloVanishingFloor()
 //    SoloDolphin()
-//    SoloStatue()
+//    SoloStatue() //MarbleStatue
 //    SoloSunset() //Sunset
 //    SoloCassette() // Cassette
 //    SoloStatueShifted() // ImageFromPath, LayeredMarbleStatue
