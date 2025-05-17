@@ -1,6 +1,5 @@
 package ui
 
-import aesthetic.LayeredMarbleStatue
 import aesthetic.MarbleStatue
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -11,8 +10,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import theme.VaporColors
 import theme.VaporFonts
-import utils.myBlur
-import utils.weirdColorFilter
 
 @Composable
 fun SoloStatueShifted(modifier: Modifier = Modifier) {
@@ -35,23 +32,8 @@ fun SoloStatueShifted(modifier: Modifier = Modifier) {
                 // Default MarbleStatue
                 MarbleStatue(modifier = Modifier.size(200.dp))
 
-                // MarbleStatue with weird color filter
-                MarbleStatue(
-                    modifier = Modifier.size(200.dp),
-                    colorFilter = weirdColorFilter
-                )
+                //⚡️statues
 
-                // MarbleStatue with blur modifier
-                MarbleStatue(
-                    modifier = Modifier.size(200.dp)
-                        .myBlur()
-                )
-
-                // LayeredMarbleStatue with horizontal flip
-                LayeredMarbleStatue(
-                    modifier = Modifier.size(200.dp),
-                    flipHorizontally = true
-                )
             }
         }
     }

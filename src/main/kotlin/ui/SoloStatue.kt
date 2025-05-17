@@ -1,6 +1,5 @@
 package ui
 
-import aesthetic.LayeredMarbleStatue
 import aesthetic.MarbleStatue
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -11,8 +10,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import theme.VaporColors
 import theme.VaporFonts
-import utils.myBlur
-import utils.weirdColorFilter
 
 @Composable
 fun SoloStatue(modifier: Modifier = Modifier) {
