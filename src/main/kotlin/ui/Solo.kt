@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 fun Solo() {
 //    SoloTriangle()
 //    SoloVanishingFloor()
-//    SoloDolphin()
+//    SoloDolphin() //
 //    SoloStatue() //MarbleStatue
 //    SoloSunset() //Sunset
 //    SoloCassette() // Cassette
