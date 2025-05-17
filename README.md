@@ -80,4 +80,4 @@ Indeed, nani?, *what?* or even *why?*. The deep research on Vaporwave with full 
 
 *We can go on*
 
-*Cause I only have eyes for you*
+*Cause I only have [eyes](liveTemplates.xml) for you*
