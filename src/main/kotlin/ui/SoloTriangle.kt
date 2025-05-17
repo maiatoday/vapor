@@ -1,14 +1,7 @@
 package ui
 
-import aesthetic.Triangle
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -31,12 +24,13 @@ fun SoloTriangle() {
                 modifier = Modifier.Companion.padding(16.dp)
             )
             Spacer(modifier = Modifier.height(24.dp))
-            Triangle(
-                size = 200.dp,
-                color1 = VaporColors.Mulberry,
-                color2 = VaporColors.RobinEggBlue,
-                color3 = VaporColors.Glaucous
-            )
+            //👀
+//            Triangle(
+//                size = 200.dp,
+//                color1 = VaporColors.Mulberry,
+//                color2 = VaporColors.RobinEggBlue,
+//                color3 = VaporColors.Glaucous
+//            )
         }
     }
 }
