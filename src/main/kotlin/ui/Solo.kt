@@ -16,7 +16,7 @@ fun Solo() {
 //    SoloCassette()
 //    SoloStatueShifted()
 //    SoloPalm()
-//    SoloRubikGlitchTitle()
+    SoloRubikGlitchTitle()
 //    SoloHoloFoil() // FoilShader
 //    SoloGlitch() // GlitchShader
 }
