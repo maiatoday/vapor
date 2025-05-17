@@ -7,7 +7,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
-import theme.PaletteDisplay
 import theme.SampleQuirkyFont
 import theme.VaporFonts
 
@@ -16,9 +15,7 @@ val foreGroundColor = Color.Black
 // 👀Goto file MeshGradient first
 //val foreGroundColor = Color.White
 
-/**
- * Hello world. A place to start and setup fonts and colors
- */
+/** Hello world. A place to start and setup fonts and colors */
 @Composable
 fun TheLook() {
     val text = "Hello, World!"
@@ -44,9 +41,12 @@ fun TheLook() {
                 )
             }
 
+            //region 👀 What is this about?
+            //⚡️v1
+            //endregion
 
             //region 👀 Display the color palette
-           // PaletteDisplay(textColor = foreGroundColor)
+            // PaletteDisplay(textColor = foreGroundColor)
             //endregion
 
 
