@@ -22,5 +22,5 @@ fun Solo() {
 //    SoloPalm()
 //    SoloRubikGlitchTitle()
 //    SoloHoloFoil()
-    SoloGlitch()
+//    SoloGlitch()
 }
