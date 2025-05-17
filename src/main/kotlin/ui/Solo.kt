@@ -1,7 +1,9 @@
 package ui
 
+import androidx.compose.foundation.background
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import theme.VaporColors
 import utils.holoFoil
 
 /**
@@ -10,6 +12,15 @@ import utils.holoFoil
  */
 @Composable
 fun Solo() {
-   // SoloGlitch()
-    SoloHoloFoil()
+//    SoloTriangle()
+//    SoloVanishingFloor()
+//    SoloDolphin()
+//    SoloStatue()
+//    SoloSunset()
+//    SoloCassette()
+//    SoloStatueShifted()
+//    SoloPalm()
+//    SoloRubikGlitchTitle()
+//    SoloHoloFoil()
+    SoloGlitch()
 }
