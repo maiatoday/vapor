@@ -1,6 +1,5 @@
 package ui
 
-import aesthetic.VanishingFloor
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
@@ -71,13 +70,14 @@ fun SoloVanishingFloor() {
 
             Spacer(modifier = Modifier.height(16.dp))
 
-            VanishingFloor(
-                size = 400.dp,
-                rows = 28,
-                columns = 32,
-                position = vanishingPointPosition.value,
-                useTiles = useTiles.value
-            )
+            //👀
+//            VanishingFloor(
+//                size = 400.dp,
+//                rows = 28,
+//                columns = 32,
+//                position = vanishingPointPosition.value,
+//                useTiles = useTiles.value
+//            )
         }
     }
 }
