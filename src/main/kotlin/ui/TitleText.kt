@@ -1,5 +1,6 @@
 package ui
 
+//⚡️👀
 //import androidx.compose.ui.graphics.Color
 //import androidx.compose.ui.graphics.Shadow
 //import androidx.compose.material.Text
@@ -21,7 +22,7 @@ import theme.VaporColors
  */
 @Composable
 fun TitleText(modifier: Modifier = Modifier) {
-    // title
+    //⚡️ title
 }
 
 /** Solo version of RubikGlitchTitle for individual display */
@@ -37,7 +38,7 @@ fun SoloRubikGlitchTitle() {
         }
 
         // Add "なに!?" text at the bottom start, rotated 45 degrees
-        // nani
+        //⚡️ nani
 
     }
 }
