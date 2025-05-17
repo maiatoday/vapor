@@ -1,6 +1,5 @@
 package ui
 
-import aesthetic.Sunset
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
@@ -28,8 +27,9 @@ fun SoloSunset() {
                 modifier = Modifier.Companion.padding(16.dp)
             )
             Spacer(modifier = Modifier.height(24.dp))
-            Sunset(size = 300.dp, retro = false)
-            Sunset(size = 300.dp, retro = true)
+            // 👀
+//            Sunset(size = 300.dp, retro = false)
+//            Sunset(size = 300.dp, retro = true)
         }
     }
 }

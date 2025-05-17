@@ -12,7 +12,7 @@ fun Solo() {
 //    SoloVanishingFloor()
 //    SoloDolphin()
 //    SoloStatue()
-//    SoloSunset()
+//    SoloSunset() //Sunset
 //    SoloCassette() // Cassette
 //    SoloStatueShifted() // ImageFromPath, LayeredMarbleStatue
 //    SoloPalm() // NeonPalm
