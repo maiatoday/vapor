@@ -13,7 +13,7 @@ fun Solo() {
 //    SoloDolphin()
 //    SoloStatue()
 //    SoloSunset()
-//    SoloCassette()
+//    SoloCassette() // Cassette
 //    SoloStatueShifted() // ImageFromPath, LayeredMarbleStatue
 //    SoloPalm() // NeonPalm
 //    SoloRubikGlitchTitle() // TitleText
