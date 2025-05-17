@@ -1,7 +1,5 @@
 package ui
 
-import aesthetic.colorPoints1
-import aesthetic.meshGradient
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
 import androidx.compose.runtime.*
@@ -12,6 +10,11 @@ import kotlinx.coroutines.delay
 import theme.PaletteDisplay
 import theme.SampleQuirkyFont
 import theme.VaporFonts
+
+val foreGroundColor = Color.Black
+
+// 👀Goto file MeshGradient first
+//val foreGroundColor = Color.White
 
 /**
  * Hello world. A place to start and setup fonts and colors
@@ -29,55 +32,56 @@ fun TheLook() {
         }
     }
 
-    Box(modifier = Modifier.fillMaxSize().meshGradient(colorPoints1)) {
+    Box(modifier = Modifier.fillMaxSize()) {
+//    Box(modifier = Modifier.fillMaxSize().meshGradient(colorPoints1)) { // ⬅️👀
         Column {
             // Display Hello World with blinking cursor
             Row {
                 Text(
                     text = text + if (showCursor) "_" else "",
                     modifier = Modifier.padding(16.dp),
-                    color = Color.White
+                    color = foreGroundColor
                 )
             }
 
             // Display the color palette
-            PaletteDisplay(textColor = Color.White)
+            PaletteDisplay(textColor = foreGroundColor)
 
             // Display the sample quirky fonts
             SampleQuirkyFont(
                 text = "Press Start 2 Play",
                 style = VaporFonts.pressStart2PStyle,
-                color = Color.White
+                color = foreGroundColor
             )
 
             SampleQuirkyFont(
                 text = "Rubick Glitch",
                 style = VaporFonts.rubikGlitchStyle,
-                color = Color.White
+                color = foreGroundColor
             )
 
             SampleQuirkyFont(
                 text = "Monoton",
                 style = VaporFonts.monotonStyle,
-                color = Color.White
+                color = foreGroundColor
             )
 
             SampleQuirkyFont(
                 text = "Neon der Thaw",
                 style = VaporFonts.neonderthawStyle,
-                color = Color.White
+                color = foreGroundColor
             )
 
             SampleQuirkyFont(
                 text = "DotGothic16",
                 style = VaporFonts.dotGothic16Style,
-                color = Color.White
+                color = foreGroundColor
             )
             // Display the sample quirky fonts
             SampleQuirkyFont(
                 text = "github.com/maiatoday/vapor",
                 style = VaporFonts.pressStart2PStyle,
-                color = Color.White
+                color = foreGroundColor
             )
         }
     }
