@@ -44,45 +44,49 @@ fun TheLook() {
                 )
             }
 
-            // Display the color palette
-            PaletteDisplay(textColor = foreGroundColor)
 
-            // Display the sample quirky fonts
-            SampleQuirkyFont(
-                text = "Press Start 2 Play",
-                style = VaporFonts.pressStart2PStyle,
-                color = foreGroundColor
-            )
+            //region 👀 Display the color palette
+           // PaletteDisplay(textColor = foreGroundColor)
+            //endregion
 
-            SampleQuirkyFont(
-                text = "Rubick Glitch",
-                style = VaporFonts.rubikGlitchStyle,
-                color = foreGroundColor
-            )
 
-            SampleQuirkyFont(
-                text = "Monoton",
-                style = VaporFonts.monotonStyle,
-                color = foreGroundColor
-            )
-
-            SampleQuirkyFont(
-                text = "Neon der Thaw",
-                style = VaporFonts.neonderthawStyle,
-                color = foreGroundColor
-            )
-
-            SampleQuirkyFont(
-                text = "DotGothic16",
-                style = VaporFonts.dotGothic16Style,
-                color = foreGroundColor
-            )
-            // Display the sample quirky fonts
-            SampleQuirkyFont(
-                text = "github.com/maiatoday/vapor",
-                style = VaporFonts.pressStart2PStyle,
-                color = foreGroundColor
-            )
+            //region 👀 Display the sample quirky fonts
+//            SampleQuirkyFont(
+//                text = "Press Start 2 Play",
+//                style = VaporFonts.pressStart2PStyle,
+//                color = foreGroundColor
+//            )
+//
+//            SampleQuirkyFont(
+//                text = "Rubick Glitch",
+//                style = VaporFonts.rubikGlitchStyle,
+//                color = foreGroundColor
+//            )
+//
+//            SampleQuirkyFont(
+//                text = "Monoton",
+//                style = VaporFonts.monotonStyle,
+//                color = foreGroundColor
+//            )
+//
+//            SampleQuirkyFont(
+//                text = "Neon der Thaw",
+//                style = VaporFonts.neonderthawStyle,
+//                color = foreGroundColor
+//            )
+//
+//            SampleQuirkyFont(
+//                text = "DotGothic16",
+//                style = VaporFonts.dotGothic16Style,
+//                color = foreGroundColor
+//            )
+//            // Display the sample quirky fonts
+//            SampleQuirkyFont(
+//                text = "github.com/maiatoday/vapor",
+//                style = VaporFonts.pressStart2PStyle,
+//                color = foreGroundColor
+//            )
+            //endregion
         }
     }
 }
