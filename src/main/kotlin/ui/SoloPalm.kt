@@ -1,6 +1,5 @@
 package ui
 
-import aesthetic.Palm
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.Text
@@ -30,7 +29,8 @@ fun SoloPalm() {
             Spacer(modifier = Modifier.height(24.dp))
 
             // Display the palm path with neon robin egg blue gradient
-            Palm(modifier = Modifier.size(500.dp))
+            // UNCOMMENT here ⬇️
+//             Palm(modifier = Modifier.size(500.dp))
         }
     }
 }

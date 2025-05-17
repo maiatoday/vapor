@@ -15,7 +15,7 @@ fun Solo() {
 //    SoloSunset()
 //    SoloCassette()
 //    SoloStatueShifted()
-//    SoloPalm()
+//    SoloPalm() // NeonPalm
 //    SoloRubikGlitchTitle() // TitleText
 //    SoloHoloFoil() // FoilShader
 //    SoloGlitch() // GlitchShader
