@@ -17,6 +17,7 @@ fun Solo() {
 //    SoloSunset() //Sunset
 //    SoloCassette() // Cassette
 //    SoloStatueShifted() // ImageFromPath, LayeredMarbleStatue
+//    and what about a matrix gradient?
 //    SoloPalm() // NeonPalm
 //    SoloRubikGlitchTitle() // TitleText
 //    SoloHoloFoil() // FoilShader

@@ -45,6 +45,28 @@ fun TheLook() {
             //⚡️v1
             //endregion
 
+            //region 👀no really, what is it about?
+            /*
+            Vaporwave is 15 years old.
+            Was it supposed to last this long?
+            I thought it was an internet music trend.
+            It has a very clear recognizable
+            A E S T H E T I C
+            It seems to say things about
+             - digital mediated experience
+             - imperfect digital memories
+             - tension between an idealised world
+                and a glitchy one
+             - ambiguous comments about consumerism
+             - nostalgia for times that were
+             - even anemoia or a nostalgia for times or
+                places we never experienced
+             Yep, still relevant today
+             and it is built on cutting
+                and pasting and remixing
+             */
+            //endregion
+
             //region 👀 Display the color palette
             // PaletteDisplay(textColor = foreGroundColor)
             //endregion
